@@ -16,6 +16,7 @@
     "aws-sdk": "^2.766.0",
     "moment": "^2.29.0",
     "next": "^9.5.3",
+    "postcss": "^8.1.1",
     "react": "^16.13.1",
     "react-cookie": "^4.0.3",
     "react-dom": "^16.13.1"
@@ -27,10 +28,12 @@
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
     "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "9.8.6",
     "eslint": "^7.10.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.3",
     "eslint-plugin-react-hooks": "^4.1.2",
+    "postcss-nested": "4.2.3",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.8.10",
     "typescript": "^4.0.3"

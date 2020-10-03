@@ -19,3 +19,10 @@ h2 {
 h3 {
   @apply text-lg;
 }
+
+/* postcss nested enabled */
+.home {
+  h1 {
+    color: #ff3e00;
+  }
+}
