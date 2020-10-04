@@ -1,0 +1,8 @@
+.next
+.cache
+package.json
+package-lock.json
+public
+node_modules
+postcss.config.json
+next.config.js

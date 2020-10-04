@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@1f8/eslint-config-typescript@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@1f8/eslint-config-typescript/-/eslint-config-typescript-1.0.9.tgz#fcac4a3d677adce67d3eec1a7a7b766cb9121012"
-  integrity sha512-vuOq+gydrto6BVn1z9TDMcEtv0SIpY+L4QlsoQGHE4IAvnGQDQTGrQjUkGWydqyZJUEh0/s2ynrAdRbCtiCbWA==
+"@1f8/eslint-config-typescript@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@1f8/eslint-config-typescript/-/eslint-config-typescript-1.1.0.tgz#9c2c043a697506fe8ab6135a7a7964890c7910c4"
+  integrity sha512-aYb3Gjbhcm+if3rhsI5g/VaKahDcrL76VBfTt+xYlRniSXx7DU8YdxawYR3twR+4h4od+g2SxTzYmJqhdeW9Iw==
 
 "@ampproject/toolbox-core@^2.6.0":
   version "2.6.1"
