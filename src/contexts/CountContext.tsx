@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useMemo } from 'react'
 
-const CountContext = createContext()
+const CountContext = createContext(null)
 
 const useCount = () => {
   const context = useContext(CountContext)

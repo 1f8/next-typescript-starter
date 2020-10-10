@@ -6,8 +6,8 @@
 
 body {
   @apply font-sans;
-  background-color: #f5f6fa;
-  color: #344675;
+  @apply bg-coolGray-50;
+  @apply text-black;
 }
 
 /* set up typography */
@@ -23,21 +23,16 @@ h3 {
 
 /* set up some default styles */
 button {
-  @apply bg-blue-500;
-  @apply text-white;
-  @apply font-bold;
-  @apply py-2;
-  @apply px-4;
-  @apply rounded;
+  @apply bg-coolGray-500 text-white font-bold py-2 px-4 rounded;
 }
 button:hover {
-  @apply bg-blue-700
+  @apply bg-coolGray-700;
 }
 
 /* postcss nested enabled */
 .home {
   h1 {
-    @apply text-red-500;
+    @apply text-rose-500;
     font-weight: 700;
   }
 }

@@ -1,7 +1,7 @@
-import { CountProvider, useCount } from '../state/contexts/CountContext'
-import useCurrentTime from '../state/hooks/useCurrentTime'
+import { CountProvider, useCount } from 'contexts/CountContext'
+import useCurrentTime from 'hooks/useCurrentTime'
 
-const CountComponent  = () => {
+const CountComp  = () => {
   const [, setCount] = useCount()
   const increment = () => setCount((c: number) => c + 1)
 
@@ -30,18 +30,18 @@ const DisplayState  = () => {
   )
 }
 
-const Home = () => {
+const TestComp = () => {
   return (
     <CountProvider>
       <div className='home flex flex-col items-center justify-center h-screen text-center'>
+        <div className='h-2 w-screen my-8 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500'></div>
         <h1>こんにちは！!</h1>
-        <CountComponent />
+        <CountComp />
         <DisplayState />
+        <div className='h-2 w-screen my-8 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500'></div>
       </div>
     </CountProvider>
   )
 }
 
-Home.displayName = 'HomeComponent'
-
-export default Home
+export default TestComp
